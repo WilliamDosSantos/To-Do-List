@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+}
+
+.header button {
+  position: absolute;
+  right: 18%;
+  margin-top: -30px;
+} 
+
+.header i {
+  font-size: 22px;
+} 
+
+.to-do {
+  margin-top: 40px;
+  width: 60%;
+}
+
+.textInsert {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  width: 90%;
+}
+
+.divInsert {
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 6px 5px 10px 0px grey;
+}
+
+button {
+  width: 10%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.bx-plus {
+  font-size: 30px;
+  margin-left: 10px;
+  background-color: rgb(139, 14, 223);
+  border-radius: 50%;
+  padding: 5px;
+  color: white;
+}
+
+.divLi {
+  margin-top: 20px;
+  padding: 10px;
+  background: lightgray;
+  border-radius: 10px;
+  box-shadow: 6px 5px 10px 0px grey;
+  display: flex;
+  align-items: center;
+}
+
+.divLi span {
+  width: 80%;
+  color: dimgray;
+}
+
+.divLi input {
+  width: 10%;
+  outline: none;
+  accent-color: currentcolor;
+}
+
+.divLi i {
+  font-size: 22px;
+  color: brown;
+}
+
+li {
+  list-style-type: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+@media (max-width: 775px) {
+  input {
+    width: 70%;
+  }
+
+  .divInsert button {
+    width: 30%;
+  }
+
+  i {
+    font-size: 30px;
+    padding: 0px;
+  }
+
+  p {
+    font-size: x-large;
+  }
+}
